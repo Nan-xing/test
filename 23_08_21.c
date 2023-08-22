@@ -31,3 +31,166 @@
 //	}
 //	return 0;
 //}
+
+
+////翻转直角三角形图案
+//void print(int n)
+//{
+//    int i, j;
+//    for (i = 0; i < n; i++)
+//    {
+//        for (j = 0; j < n - i; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//
+//}
+//int main() {
+//    int n;
+//    //输入
+//    while (scanf("%d", &n) != EOF)
+//    {   //打印
+//        print(n);
+//    }
+//    return 0;
+//}
+
+////带空格直角三角形图案
+//void print(int n)
+//{
+//    int i, j;
+//    for (i = 0; i < n; i++)
+//    {//空格
+//        for (j = 0; j < n - i - 1; j++)
+//        {
+//            printf("  ");
+//        }
+//        //打印*
+//        for (j = 0; j < i + 1; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//}
+//int main() {
+//    int n = 0;
+//    while (scanf("%d", &n) != EOF)
+//    {
+//        //打印
+//        print(n);
+//    }
+//    return 0;
+//}
+
+
+////金字塔图案
+//void print(int n)
+//{
+//    int i, j;
+//    for (i = 0; i < n; i++)
+//    {
+//        //空格
+//        for (j = 0; j < n - i - 1; j++)
+//        {
+//            printf(" ");
+//        }
+//        //打印*
+//        for (j = 0; j < i + 1; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//}
+//
+//int main() {
+//    int n;
+//    while (scanf("%d", &n) != EOF)
+//    {//打印
+//        print(n);
+//    }
+//    return 0;
+//}
+
+
+////翻转金字塔图案
+//void print(int n)
+//{
+//    int i, j;
+//    for (i = 0; i < n; i++)
+//    {
+//        //空格
+//        for (j = 0; j < i; j++)
+//        {
+//            printf(" ");
+//        }
+//        for (j = 0; j < n - i; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//}
+//
+//int main() {
+//    int n;
+//    while (scanf("%d", &n) != EOF)
+//    {
+//        //打印
+//        print(n);
+//    }
+//    return 0;
+//}
+
+
+////菱形图案
+//void print(int n)
+//{
+//    int i, j;
+//    //上半部分
+//    for (i = 0; i < n; i++)
+//    {
+//        //空格
+//        for (j = 0; j < n - i; j++)
+//        {
+//            printf(" ");
+//        }
+//        for (j = 0; j < i + 1; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//    //中间
+//    for (i = 0; i < n + 1; i++)
+//    {
+//        printf("* ");
+//    }
+//    printf("\n");
+//    //下半部分
+//    for (i = 0; i < n; i++)
+//    {
+//        //空格
+//        for (j = 0; j < i + 1; j++)
+//        {
+//            printf(" ");
+//        }
+//        for (j = 0; j < n - i; j++)
+//        {
+//            printf("* ");
+//        }
+//        printf("\n");
+//    }
+//}
+//
+//int main() {
+//    int n;
+//    while (scanf("%d", &n) != EOF)
+//    {
+//        print(n);
+//    }
+//    return 0;
+//}
