@@ -1,0 +1,5 @@
+﻿  contact.c
+E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(166,27): warning C4133: “函数”: 从“people *”到“const char *”的类型不兼容
+  main.c
+  正在生成代码...
+  通讯录.vcxproj -> E:\桌面\c program\GitHub仓库\test\通讯录\x64\Debug\通讯录.exe
