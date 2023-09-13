@@ -1,13 +1,4 @@
 ﻿  contact.c
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(226,27): error C2065: “xyzy”: 未声明的标识符
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(226,27): warning C4047: “函数”:“const char *”与“int”的间接级别不同
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(226,15): warning C4024: “strcmp”: 形参和实参 1 的类型不同
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(226,8): error C2198: “strcmp”: 用于调用的参数太少
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(265,34): warning C4047: “=”:“char”与“char [12]”的间接级别不同
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(265,47): warning C4047: “=”:“char”与“char [6]”的间接级别不同
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(265,69): warning C4047: “=”:“char”与“char [15]”的间接级别不同
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(271,4): warning C4013: “SortTel”未定义；假设外部返回 int
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(274,4): warning C4013: “SortSex”未定义；假设外部返回 int
-E:\桌面\c program\GitHub仓库\test\通讯录\contact.c(277,4): warning C4013: “SortAddress”未定义；假设外部返回 int
   main.c
   正在生成代码...
+  通讯录.vcxproj -> E:\桌面\c program\GitHub仓库\test\通讯录\x64\Debug\通讯录.exe
